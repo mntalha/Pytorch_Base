@@ -44,11 +44,11 @@ Therefore , I seperate the related class and files into folders such as
     #logging
     import sys
     sys.path.insert(1, 'C:/Users/talha/Desktop/Github_sources/pycodes')
-    
     import tk_logging
     tk = tk_logging.Tk_logging("ModelTrain","log.txt","DEBUG")
     loggerr = tk.logger
     my.logger = loggerr
+    
     
     #Debugger
     from icecream import ic
@@ -57,7 +57,7 @@ Therefore , I seperate the related class and files into folders such as
     icdebugger.enable()
     my.debugger = icdebugger
     
-
+    #Parameters
     learning_rate = 1e-3
     n_epochs =  21
     optimizer = optim.Adam(params=model.parameters(), lr=learning_rate,weight_decay=1e-5) #,,weight_decay=1e-5
