@@ -2,15 +2,15 @@
 The purpose is to build base code for user using Pytorch library 
 
 ### How To
-Since I am coming from C and C++ background , to see "main" files make me happy  :+1
+Since I am coming from C and C++ background , to see "main" files make me happy : +1
 
 Therefore , I seperate the related class and files into folders such as 
 
-[required_classes](https://github.com/mntalha/Pytorch_Base/blob/main/tcp_server.py) auxiliry classses 
+[required_classes](https://github.com/mntalha/Pytorch_Base/blob/main/dataset) auxiliry classses 
 
-[dataset](https://github.com/mntalha/Pytorch_Base/blob/main/tcp_server.py)  contains raw and processed images.
+[dataset](https://github.com/mntalha/Pytorch_Base/blob/main/main_function)  contains raw and processed images.
 
-[main_function](https://github.com/mntalha/Pytorch_Base/blob/main/tcp_server.py) main python file that will be runned.
+[main_function](https://github.com/mntalha/Pytorch_Base/blob/main/required_classes) main python file that will be runned.
 
 
 # Requirements
