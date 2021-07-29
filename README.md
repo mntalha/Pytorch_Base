@@ -2,7 +2,7 @@
 The purpose is to build base code for user using Pytorch library 
 
 ### How To
-Since I am coming from C and C++ background , to see "main" files make me happy : +1
+Since I am coming from C and C++ background , to see "main" files make me happy :)
 
 Therefore , I seperate the related class and files into folders such as 
 
